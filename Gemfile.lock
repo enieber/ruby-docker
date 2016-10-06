@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    connection_pool (2.2.0)
+    iron_core (1.0.9)
+      rest (>= 3.0.4)
+    iron_mq (6.0.2)
+      iron_core (>= 0.5.1)
+    net-http-persistent (3.0.0)
+      connection_pool (~> 2.2)
+    netrc (0.11.0)
+    rest (3.0.6)
+      net-http-persistent (>= 2.9.1)
+      netrc
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iron_mq
+
+BUNDLED WITH
+   1.11.2
